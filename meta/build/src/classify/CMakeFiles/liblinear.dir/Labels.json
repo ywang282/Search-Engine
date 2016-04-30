@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/CMakeFiles/liblinear"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/CMakeFiles/liblinear.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/CMakeFiles/liblinear-complete.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-install.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-mkdir.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-download.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-update.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-patch.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-configure.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "liblinear" ],
+		"name" : "liblinear"
+	}
+}

@@ -1,0 +1,3 @@
+# file: line.toml
+type = "line-corpus"
+encoding = "shift_jis"

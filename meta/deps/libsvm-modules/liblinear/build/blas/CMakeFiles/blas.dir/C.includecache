@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/blas/blas.h
+blasp.h
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/blas/blasp.h
+
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/blas/blasp.h
+
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/blas/daxpy.c
+blas.h
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/blas/blas.h
+
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/blas/ddot.c
+blas.h
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/blas/blas.h
+
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/blas/dnrm2.c
+math.h
+-
+blas.h
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/blas/blas.h
+
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/blas/dscal.c
+blas.h
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/blas/blas.h
+

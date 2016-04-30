@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/tests/CMakeFiles/ceeaus"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/tests/CMakeFiles/ceeaus.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/tests/CMakeFiles/ceeaus-complete.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/tests/ceeaus-prefix/src/ceeaus-stamp/ceeaus-install.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/tests/ceeaus-prefix/src/ceeaus-stamp/ceeaus-mkdir.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/tests/ceeaus-prefix/src/ceeaus-stamp/ceeaus-download.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/tests/ceeaus-prefix/src/ceeaus-stamp/ceeaus-update.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/tests/ceeaus-prefix/src/ceeaus-stamp/ceeaus-patch.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/tests/ceeaus-prefix/src/ceeaus-stamp/ceeaus-configure.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/tests/ceeaus-prefix/src/ceeaus-stamp/ceeaus-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "ceeaus" ],
+		"name" : "ceeaus"
+	}
+}

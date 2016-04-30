@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libmeta-topics.a  CMakeFiles/meta-topics.dir/lda_cvb.cpp.o CMakeFiles/meta-topics.dir/lda_gibbs.cpp.o CMakeFiles/meta-topics.dir/lda_model.cpp.o CMakeFiles/meta-topics.dir/lda_scvb.cpp.o CMakeFiles/meta-topics.dir/parallel_lda_gibbs.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libmeta-topics.a

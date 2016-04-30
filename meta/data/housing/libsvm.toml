@@ -1,0 +1,4 @@
+# https://archive.ics.uci.edu/ml/datasets/Housing
+type = "libsvm-corpus"
+label-type = "regression"
+num-lines = 506

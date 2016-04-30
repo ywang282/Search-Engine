@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/CMakeFiles/libsvm"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/CMakeFiles/libsvm.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/CMakeFiles/libsvm-complete.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/libsvm-prefix/src/libsvm-stamp/libsvm-install.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/libsvm-prefix/src/libsvm-stamp/libsvm-mkdir.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/libsvm-prefix/src/libsvm-stamp/libsvm-download.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/libsvm-prefix/src/libsvm-stamp/libsvm-update.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/libsvm-prefix/src/libsvm-stamp/libsvm-patch.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/libsvm-prefix/src/libsvm-stamp/libsvm-configure.rule"
+		},
+		
+		{
+			"file" : "/Users/evening/Desktop/thissemester!/meta/build/src/classify/libsvm-prefix/src/libsvm-stamp/libsvm-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "libsvm" ],
+		"name" : "libsvm"
+	}
+}

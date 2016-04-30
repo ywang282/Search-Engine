@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/meta/io/gzstream.h
+zlib.h
+-
+istream
+-
+ostream
+-
+streambuf
+-
+vector
+-
+
+/Users/evening/Desktop/thissemester!/meta/src/io/tools/compressor_test.cpp
+array
+-
+iostream
+-
+fstream
+-
+meta/io/gzstream.h
+/Users/evening/Desktop/thissemester!/meta/src/io/tools/meta/io/gzstream.h
+

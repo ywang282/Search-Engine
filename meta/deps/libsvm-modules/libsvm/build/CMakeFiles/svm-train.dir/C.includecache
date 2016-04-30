@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/libsvm/svm-train.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+errno.h
+-
+svm.h
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/libsvm/svm.h
+
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/libsvm/svm.h
+

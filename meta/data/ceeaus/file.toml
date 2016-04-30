@@ -1,0 +1,4 @@
+# file: file.toml
+type = "file-corpus"
+list = "ceeaus"
+encoding = "shift_jis"

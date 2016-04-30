@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/meta/stats/running_stats.h
+cstddef
+-
+
+/Users/evening/Desktop/thissemester!/meta/src/stats/running_stats.cpp
+cmath
+-
+meta/stats/running_stats.h
+/Users/evening/Desktop/thissemester!/meta/src/stats/meta/stats/running_stats.h
+

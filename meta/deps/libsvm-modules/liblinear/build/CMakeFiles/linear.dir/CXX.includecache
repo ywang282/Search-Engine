@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/linear.cpp
+math.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdarg.h
+-
+locale.h
+-
+linear.h
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/linear.h
+tron.h
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/tron.h
+
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/linear.h
+
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/tron.cpp
+math.h
+-
+stdio.h
+-
+string.h
+-
+stdarg.h
+-
+tron.h
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/tron.h
+
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/tron.h
+

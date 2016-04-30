@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/linear.h
+
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/train.c
+stdio.h
+-
+math.h
+-
+stdlib.h
+-
+string.h
+-
+ctype.h
+-
+errno.h
+-
+linear.h
+/Users/evening/Desktop/thissemester!/meta/deps/libsvm-modules/liblinear/linear.h
+

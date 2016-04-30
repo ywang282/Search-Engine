@@ -1,0 +1,13 @@
+# Target labels
+ housing
+# Source files and their labels
+/Users/evening/Desktop/thissemester!/meta/build/tests/CMakeFiles/housing
+/Users/evening/Desktop/thissemester!/meta/build/tests/CMakeFiles/housing.rule
+/Users/evening/Desktop/thissemester!/meta/build/tests/CMakeFiles/housing-complete.rule
+/Users/evening/Desktop/thissemester!/meta/build/tests/housing-prefix/src/housing-stamp/housing-install.rule
+/Users/evening/Desktop/thissemester!/meta/build/tests/housing-prefix/src/housing-stamp/housing-mkdir.rule
+/Users/evening/Desktop/thissemester!/meta/build/tests/housing-prefix/src/housing-stamp/housing-download.rule
+/Users/evening/Desktop/thissemester!/meta/build/tests/housing-prefix/src/housing-stamp/housing-update.rule
+/Users/evening/Desktop/thissemester!/meta/build/tests/housing-prefix/src/housing-stamp/housing-patch.rule
+/Users/evening/Desktop/thissemester!/meta/build/tests/housing-prefix/src/housing-stamp/housing-configure.rule
+/Users/evening/Desktop/thissemester!/meta/build/tests/housing-prefix/src/housing-stamp/housing-build.rule

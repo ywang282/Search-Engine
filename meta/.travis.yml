@@ -1,0 +1,100 @@
+notifications:
+  irc: "chat.freenode.net#meta-toolkit"
+
+language: cpp
+
+sudo: false
+
+addons:
+  apt:
+    packages: &default-packages
+      - libjemalloc-dev
+      - zlib1g-dev
+
+matrix:
+  include:
+    # Linux/GCC 4.8
+    - os: linux
+      env: COMPILER=gcc GCC_VERSION=4.8
+      addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+          packages:
+            - *default-packages
+            - gcc-4.8
+            - g++-4.8
+
+    # Linux/GCC 4.9
+    - os: linux
+      env: COMPILER=gcc GCC_VERSION=4.9
+      addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+          packages:
+            - *default-packages
+            - gcc-4.9
+            - g++-4.9
+
+    # Linux/GCC 5
+    - os: linux
+      env: COMPILER=gcc GCC_VERSION=5
+      addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+          packages:
+            - *default-packages
+            - gcc-5
+            - g++-5
+
+    # Linux/Clang 3.6
+    - os: linux
+      env: COMPILER=clang CLANG_VERSION=3.6
+      addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+            - llvm-toolchain-precise-3.6
+          packages:
+            - *default-packages
+            - clang-3.6
+            - llvm-3.6-dev
+
+    # OS X 10.9 + Xcode 6.1
+    - os: osx
+      env: COMPILER=clang
+
+    # OS X 10.10 + Xcode 6.4
+    - os: osx
+      osx_image: xcode6.4
+      env: COMPILER=clang
+
+    # OS X 10.10 + Xcode 7.1.1
+    - os: osx
+      osx_image: xcode7.1
+      env: COMPILER=clang
+
+    # OS X 10.11 + Xcode 7.2
+    - os: osx
+      osx_image: xcode7.2
+      env: COMPILER=clang
+
+    # OS X/GCC 5
+    - os: osx
+      env: COMPILER=gcc
+
+install:
+  - if [ "$TRAVIS_OS_NAME" == "linux" ]; then source travis/install_linux.sh; fi
+  - if [ "$TRAVIS_OS_NAME" == "osx" ]; then source travis/install_osx.sh; fi
+
+before_script:
+  - mkdir build
+  - cd build
+  - cp ../config.toml ./
+
+script:
+  - git submodule update --init --recursive
+  - ../travis/cmake.sh Debug && make -j2 && make clean
+  - rm -rf CMake* && ../travis/cmake.sh Release && make -j2 && ./unit-test --reporter=spec
