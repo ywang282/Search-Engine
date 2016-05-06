@@ -1,0 +1,13 @@
+# Target labels
+ housing
+# Source files and their labels
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/CMakeFiles/housing
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/CMakeFiles/housing.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/CMakeFiles/housing-complete.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/housing-prefix/src/housing-stamp/housing-install.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/housing-prefix/src/housing-stamp/housing-mkdir.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/housing-prefix/src/housing-stamp/housing-download.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/housing-prefix/src/housing-stamp/housing-update.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/housing-prefix/src/housing-stamp/housing-patch.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/housing-prefix/src/housing-stamp/housing-configure.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/housing-prefix/src/housing-stamp/housing-build.rule

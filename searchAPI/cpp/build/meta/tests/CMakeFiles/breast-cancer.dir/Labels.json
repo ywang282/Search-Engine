@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/CMakeFiles/breast-cancer"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/CMakeFiles/breast-cancer.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/CMakeFiles/breast-cancer-complete.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/breast-cancer-prefix/src/breast-cancer-stamp/breast-cancer-install.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/breast-cancer-prefix/src/breast-cancer-stamp/breast-cancer-mkdir.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/breast-cancer-prefix/src/breast-cancer-stamp/breast-cancer-download.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/breast-cancer-prefix/src/breast-cancer-stamp/breast-cancer-update.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/breast-cancer-prefix/src/breast-cancer-stamp/breast-cancer-patch.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/breast-cancer-prefix/src/breast-cancer-stamp/breast-cancer-configure.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/breast-cancer-prefix/src/breast-cancer-stamp/breast-cancer-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "breast-cancer" ],
+		"name" : "breast-cancer"
+	}
+}

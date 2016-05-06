@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libmeta-sequence.a  CMakeFiles/meta-sequence.dir/observation.cpp.o CMakeFiles/meta-sequence.dir/sequence.cpp.o CMakeFiles/meta-sequence.dir/sequence_analyzer.cpp.o CMakeFiles/meta-sequence.dir/trellis.cpp.o CMakeFiles/meta-sequence.dir/io/ptb_parser.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libmeta-sequence.a

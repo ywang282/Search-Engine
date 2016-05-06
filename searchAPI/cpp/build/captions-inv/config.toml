@@ -1,0 +1,26 @@
+indexer-ram-budget = 1024
+inverted-index = "captions-inv"
+stop-words = "../meta/data/lemur-stopwords.txt"
+punctuation = "../meta/data/sentence-boundaries/sentence-punctuation.txt"
+forward-index = "captions-fwd"
+corpus = "line.toml"
+function-words = "../meta/data/function-words.txt"
+dataset = "captions"
+end-exceptions = "../meta/data/sentence-boundaries/sentence-end-exceptions.txt"
+query-path = "../queries.txt"
+query-judgements = "../meta/data/ceeaus-qrels.txt"
+prefix = "../meta/data"
+start-exceptions = "../meta/data/sentence-boundaries/sentence-start-exceptions.txt"
+[ranker]
+	k3 = 500
+	b = 0.750000
+	k1 = 1.20000
+	method = "bm25"
+[server]
+	num-threads = 4
+	port = 8089
+	address = "0.0.0.0"
+[[analyzers]]
+	filter = "default-chain"
+	ngram = 1
+	method = "ngram-word"

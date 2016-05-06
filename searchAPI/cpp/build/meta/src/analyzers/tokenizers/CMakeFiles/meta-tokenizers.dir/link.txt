@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libmeta-tokenizers.a  CMakeFiles/meta-tokenizers.dir/character_tokenizer.cpp.o CMakeFiles/meta-tokenizers.dir/icu_tokenizer.cpp.o CMakeFiles/meta-tokenizers.dir/whitespace_tokenizer.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libmeta-tokenizers.a
