@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/CMakeFiles/liblinear"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/CMakeFiles/liblinear.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/CMakeFiles/liblinear-complete.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-install.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-mkdir.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-download.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-update.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-patch.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-configure.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "liblinear" ],
+		"name" : "liblinear"
+	}
+}

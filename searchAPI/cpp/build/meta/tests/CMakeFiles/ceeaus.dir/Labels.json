@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/CMakeFiles/ceeaus"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/CMakeFiles/ceeaus.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/CMakeFiles/ceeaus-complete.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/ceeaus-prefix/src/ceeaus-stamp/ceeaus-install.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/ceeaus-prefix/src/ceeaus-stamp/ceeaus-mkdir.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/ceeaus-prefix/src/ceeaus-stamp/ceeaus-download.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/ceeaus-prefix/src/ceeaus-stamp/ceeaus-update.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/ceeaus-prefix/src/ceeaus-stamp/ceeaus-patch.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/ceeaus-prefix/src/ceeaus-stamp/ceeaus-configure.rule"
+		},
+		
+		{
+			"file" : "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/tests/ceeaus-prefix/src/ceeaus-stamp/ceeaus-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "ceeaus" ],
+		"name" : "ceeaus"
+	}
+}

@@ -1,0 +1,4 @@
+type = "line-corpus"
+metadata = [{name = "path", type = "string"}]
+num-docs = 882
+store-full-text = true

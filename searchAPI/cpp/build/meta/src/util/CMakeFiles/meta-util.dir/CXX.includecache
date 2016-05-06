@@ -1,0 +1,64 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../meta/include/meta/logging/logger.h
+chrono
+-
+functional
+-
+iostream
+-
+iomanip
+-
+sstream
+-
+vector
+-
+
+../meta/include/meta/util/printing.h
+iostream
+-
+string
+-
+meta/logging/logger.h
+../meta/include/meta/util/meta/logging/logger.h
+
+../meta/include/meta/util/progress.h
+atomic
+-
+chrono
+-
+condition_variable
+-
+mutex
+-
+thread
+-
+string
+-
+
+/Volumes/High Speed Storage/Development/searchAPI/cpp/meta/src/util/progress.cpp
+cassert
+-
+cstdio
+-
+thread
+-
+algorithm
+-
+iomanip
+-
+sstream
+-
+meta/logging/logger.h
+/Volumes/High Speed Storage/Development/searchAPI/cpp/meta/src/util/meta/logging/logger.h
+meta/util/printing.h
+/Volumes/High Speed Storage/Development/searchAPI/cpp/meta/src/util/meta/util/printing.h
+meta/util/progress.h
+/Volumes/High Speed Storage/Development/searchAPI/cpp/meta/src/util/meta/util/progress.h
+

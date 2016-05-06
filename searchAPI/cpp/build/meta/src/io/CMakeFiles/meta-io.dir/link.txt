@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libmeta-io.a  CMakeFiles/meta-io.dir/filesystem.cpp.o CMakeFiles/meta-io.dir/gzstream.cpp.o CMakeFiles/meta-io.dir/libsvm_parser.cpp.o CMakeFiles/meta-io.dir/mmap_file.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libmeta-io.a

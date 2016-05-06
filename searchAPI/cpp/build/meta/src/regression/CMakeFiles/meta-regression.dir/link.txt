@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libmeta-regression.a  CMakeFiles/meta-regression.dir/metrics.cpp.o CMakeFiles/meta-regression.dir/regressor_factory.cpp.o CMakeFiles/meta-regression.dir/models/regressor.cpp.o CMakeFiles/meta-regression.dir/models/sgd.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libmeta-regression.a

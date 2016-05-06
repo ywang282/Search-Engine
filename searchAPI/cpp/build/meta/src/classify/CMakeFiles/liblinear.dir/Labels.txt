@@ -1,0 +1,13 @@
+# Target labels
+ liblinear
+# Source files and their labels
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/CMakeFiles/liblinear
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/CMakeFiles/liblinear.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/CMakeFiles/liblinear-complete.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-install.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-mkdir.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-download.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-update.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-patch.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-configure.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/liblinear-prefix/src/liblinear-stamp/liblinear-build.rule

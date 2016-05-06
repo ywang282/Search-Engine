@@ -1,0 +1,735 @@
+The system is: Darwin - 15.4.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/3.5.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/3.5.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a73a4/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a73a4.dir/build.make CMakeFiles/cmTC_a73a4.dir/build
+Building C object CMakeFiles/cmTC_a73a4.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_a73a4.dir/testCCompiler.c.o   -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/testCCompiler.c"
+Linking C executable cmTC_a73a4
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a73a4.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a73a4.dir/testCCompiler.c.o  -o cmTC_a73a4  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e69f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7e69f.dir/build.make CMakeFiles/cmTC_7e69f.dir/build
+Building C object CMakeFiles/cmTC_7e69f.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_7e69f.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.5.2/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_7e69f
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e69f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_7e69f.dir/CMakeCCompilerABI.c.o  -o cmTC_7e69f   
+Apple LLVM version 7.3.0 (clang-703.0.29)
+Target: x86_64-apple-darwin15.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_7e69f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7e69f.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-264.3.101
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7e69f/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7e69f.dir/build.make CMakeFiles/cmTC_7e69f.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_7e69f.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc     -o CMakeFiles/cmTC_7e69f.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.5.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_7e69f]
+  ignore line: [/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e69f.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_7e69f.dir/CMakeCCompilerABI.c.o  -o cmTC_7e69f   ]
+  ignore line: [Apple LLVM version 7.3.0 (clang-703.0.29)]
+  ignore line: [Target: x86_64-apple-darwin15.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_7e69f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_7e69f.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7e69f] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_7e69f.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_13753/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_13753.dir/build.make CMakeFiles/cmTC_13753.dir/build
+Building C object CMakeFiles/cmTC_13753.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_13753.dir/feature_tests.c.o   -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_13753
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13753.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_13753.dir/feature_tests.c.o  -o cmTC_13753  
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da80f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_da80f.dir/build.make CMakeFiles/cmTC_da80f.dir/build
+Building C object CMakeFiles/cmTC_da80f.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_da80f.dir/feature_tests.c.o   -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_da80f
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da80f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_da80f.dir/feature_tests.c.o  -o cmTC_da80f  
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfde6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_dfde6.dir/build.make CMakeFiles/cmTC_dfde6.dir/build
+Building C object CMakeFiles/cmTC_dfde6.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_dfde6.dir/feature_tests.c.o   -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/feature_tests.c"
+Linking C executable cmTC_dfde6
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfde6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dfde6.dir/feature_tests.c.o  -o cmTC_dfde6  
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8c1c1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8c1c1.dir/build.make CMakeFiles/cmTC_8c1c1.dir/build
+Building CXX object CMakeFiles/cmTC_8c1c1.dir/testCXXCompiler.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++      -o CMakeFiles/cmTC_8c1c1.dir/testCXXCompiler.cxx.o -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
+Linking CXX executable cmTC_8c1c1
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c1c1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8c1c1.dir/testCXXCompiler.cxx.o  -o cmTC_8c1c1  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4817/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c4817.dir/build.make CMakeFiles/cmTC_c4817.dir/build
+Building CXX object CMakeFiles/cmTC_c4817.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++      -o CMakeFiles/cmTC_c4817.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.5.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_c4817
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4817.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c4817.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c4817   
+Apple LLVM version 7.3.0 (clang-703.0.29)
+Target: x86_64-apple-darwin15.4.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_c4817 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c4817.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-264.3.101
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/lib
+	/usr/local/lib
+Framework search paths:
+	/Library/Frameworks/
+	/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c4817/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c4817.dir/build.make CMakeFiles/cmTC_c4817.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_c4817.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++      -o CMakeFiles/cmTC_c4817.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.5.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_c4817]
+  ignore line: [/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4817.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_c4817.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c4817   ]
+  ignore line: [Apple LLVM version 7.3.0 (clang-703.0.29)]
+  ignore line: [Target: x86_64-apple-darwin15.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.11.0 -o cmTC_c4817 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c4817.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.11.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c4817] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_c4817.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/lib;/usr/local/lib]
+  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
+  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  implicit libs: [c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.3.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/usr/lib;/usr/local/lib]
+  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_929b7/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_929b7.dir/build.make CMakeFiles/cmTC_929b7.dir/build
+Building CXX object CMakeFiles/cmTC_929b7.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++     -std=c++14 -o CMakeFiles/cmTC_929b7.dir/feature_tests.cxx.o -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_929b7
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_929b7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_929b7.dir/feature_tests.cxx.o  -o cmTC_929b7  
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_16f6e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_16f6e.dir/build.make CMakeFiles/cmTC_16f6e.dir/build
+Building CXX object CMakeFiles/cmTC_16f6e.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++     -std=c++11 -o CMakeFiles/cmTC_16f6e.dir/feature_tests.cxx.o -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_16f6e
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16f6e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_16f6e.dir/feature_tests.cxx.o  -o cmTC_16f6e  
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8917/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c8917.dir/build.make CMakeFiles/cmTC_c8917.dir/build
+Building CXX object CMakeFiles/cmTC_c8917.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++     -std=c++98 -o CMakeFiles/cmTC_c8917.dir/feature_tests.cxx.o -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/feature_tests.cxx"
+Linking CXX executable cmTC_c8917
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8917.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c8917.dir/feature_tests.cxx.o  -o cmTC_c8917  
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C++ SOURCE FILE Test HAS_CXX14 succeeded with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aefe9/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_aefe9.dir/build.make CMakeFiles/cmTC_aefe9.dir/build
+Building CXX object CMakeFiles/cmTC_aefe9.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++     -Wall -Wextra -pedantic -DHAS_CXX14   -std=c++14 -o CMakeFiles/cmTC_aefe9.dir/src.cxx.o -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/src.cxx"
+Linking CXX executable cmTC_aefe9
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aefe9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -Wall -Wextra -pedantic -DHAS_CXX14 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_aefe9.dir/src.cxx.o  -o cmTC_aefe9  
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f3ea/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1f3ea.dir/build.make CMakeFiles/cmTC_1f3ea.dir/build
+Building C object CMakeFiles/cmTC_1f3ea.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    /usr/lib/libdl.dylib   -o CMakeFiles/cmTC_1f3ea.dir/CheckIncludeFile.c.o   -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+Linking C executable cmTC_1f3ea
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f3ea.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    /usr/lib/libdl.dylib -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1f3ea.dir/CheckIncludeFile.c.o  -o cmTC_1f3ea  
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4b02/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d4b02.dir/build.make CMakeFiles/cmTC_d4b02.dir/build
+Building C object CMakeFiles/cmTC_d4b02.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    /usr/lib/libdl.dylib   -o CMakeFiles/cmTC_d4b02.dir/CheckSymbolExists.c.o   -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+Linking C executable cmTC_d4b02
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4b02.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    /usr/lib/libdl.dylib -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d4b02.dir/CheckSymbolExists.c.o  -o cmTC_d4b02  
+
+File /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test META_HAS_STD_SHARED_PTR_ATOMICS succeeded with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98ac3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_98ac3.dir/build.make CMakeFiles/cmTC_98ac3.dir/build
+Building CXX object CMakeFiles/cmTC_98ac3.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -I"/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/LIBCXX_PREFIX-NOTFOUND/c++/v1"  -Wall -Wextra -pedantic -std=c++14  -DMETA_HAS_STD_SHARED_PTR_ATOMICS  /usr/lib/libdl.dylib  -std=c++14 /usr/lib/libdl.dylib -stdlib=libc++ -stdlib=libc++ /usr/lib/libc++abi.dylib -L/usr/lib   -o CMakeFiles/cmTC_98ac3.dir/src.cxx.o -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/src.cxx"
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+clang: warning: /usr/lib/libc++abi.dylib: 'linker' input unused
+clang: warning: argument unused during compilation: '-L/usr/lib'
+Linking CXX executable cmTC_98ac3
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98ac3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -Wall -Wextra -pedantic -std=c++14  -DMETA_HAS_STD_SHARED_PTR_ATOMICS  /usr/lib/libdl.dylib  -std=c++14 /usr/lib/libdl.dylib -stdlib=libc++ -stdlib=libc++ /usr/lib/libc++abi.dylib -L/usr/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_98ac3.dir/src.cxx.o  -o cmTC_98ac3  
+
+Source file was:
+
+#include <atomic>
+#include <memory>
+int main () {
+    auto sp = std::make_shared<int>(1);
+    auto sp2 = std::atomic_load(&sp);
+    return 0;
+}
+Performing C++ SOURCE FILE Test META_HAS_STREAM_MOVE succeeded with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4fbfc/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_4fbfc.dir/build.make CMakeFiles/cmTC_4fbfc.dir/build
+Building CXX object CMakeFiles/cmTC_4fbfc.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -I"/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/LIBCXX_PREFIX-NOTFOUND/c++/v1"  -Wall -Wextra -pedantic -std=c++14  -DMETA_HAS_STREAM_MOVE  /usr/lib/libdl.dylib  -std=c++14 /usr/lib/libdl.dylib -stdlib=libc++ -stdlib=libc++ /usr/lib/libc++abi.dylib -L/usr/lib   -o CMakeFiles/cmTC_4fbfc.dir/src.cxx.o -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/src.cxx"
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+clang: warning: /usr/lib/libc++abi.dylib: 'linker' input unused
+clang: warning: argument unused during compilation: '-L/usr/lib'
+Linking CXX executable cmTC_4fbfc
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fbfc.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -Wall -Wextra -pedantic -std=c++14  -DMETA_HAS_STREAM_MOVE  /usr/lib/libdl.dylib  -std=c++14 /usr/lib/libdl.dylib -stdlib=libc++ -stdlib=libc++ /usr/lib/libc++abi.dylib -L/usr/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4fbfc.dir/src.cxx.o  -o cmTC_4fbfc  
+
+Source file was:
+
+#include <fstream>
+int main() {
+    std::ofstream ofs{"path"};
+    std::ofstream ofs2{std::move(ofs)};
+    return 0;
+}
+Performing C++ SOURCE FILE Test META_HAS_STD_MAKE_UNIQUE succeeded with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ec44/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_2ec44.dir/build.make CMakeFiles/cmTC_2ec44.dir/build
+Building CXX object CMakeFiles/cmTC_2ec44.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -I"/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/LIBCXX_PREFIX-NOTFOUND/c++/v1"  -Wall -Wextra -pedantic -std=c++14  -DMETA_HAS_STD_MAKE_UNIQUE  /usr/lib/libdl.dylib  -std=c++14 /usr/lib/libdl.dylib -stdlib=libc++ -stdlib=libc++ /usr/lib/libc++abi.dylib -L/usr/lib   -o CMakeFiles/cmTC_2ec44.dir/src.cxx.o -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/src.cxx"
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+clang: warning: /usr/lib/libc++abi.dylib: 'linker' input unused
+clang: warning: argument unused during compilation: '-L/usr/lib'
+Linking CXX executable cmTC_2ec44
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ec44.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -Wall -Wextra -pedantic -std=c++14  -DMETA_HAS_STD_MAKE_UNIQUE  /usr/lib/libdl.dylib  -std=c++14 /usr/lib/libdl.dylib -stdlib=libc++ -stdlib=libc++ /usr/lib/libc++abi.dylib -L/usr/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2ec44.dir/src.cxx.o  -o cmTC_2ec44  
+
+Source file was:
+
+#include <memory>
+int main() {
+    auto i = std::make_unique<int>(1);
+    return 0;
+}
+Performing C++ SOURCE FILE Test META_HAS_EXPERIMENTAL_OPTIONAL succeeded with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7cd35/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7cd35.dir/build.make CMakeFiles/cmTC_7cd35.dir/build
+Building CXX object CMakeFiles/cmTC_7cd35.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -I"/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/LIBCXX_PREFIX-NOTFOUND/c++/v1"  -Wall -Wextra -pedantic -std=c++14  -DMETA_HAS_EXPERIMENTAL_OPTIONAL  /usr/lib/libdl.dylib  -std=c++14 /usr/lib/libdl.dylib -stdlib=libc++ -stdlib=libc++ /usr/lib/libc++abi.dylib -L/usr/lib   -o CMakeFiles/cmTC_7cd35.dir/src.cxx.o -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/src.cxx"
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+clang: warning: /usr/lib/libc++abi.dylib: 'linker' input unused
+clang: warning: argument unused during compilation: '-L/usr/lib'
+Linking CXX executable cmTC_7cd35
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cd35.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -Wall -Wextra -pedantic -std=c++14  -DMETA_HAS_EXPERIMENTAL_OPTIONAL  /usr/lib/libdl.dylib  -std=c++14 /usr/lib/libdl.dylib -stdlib=libc++ -stdlib=libc++ /usr/lib/libc++abi.dylib -L/usr/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7cd35.dir/src.cxx.o  -o cmTC_7cd35  
+
+Source file was:
+
+#include <experimental/optional>
+int main() {
+    std::experimental::optional<int> x;
+    return 0;
+}
+Performing C++ SOURCE FILE Test META_HAS_EXPERIMENTAL_STRING_VIEW succeeded with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33039/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_33039.dir/build.make CMakeFiles/cmTC_33039.dir/build
+Building CXX object CMakeFiles/cmTC_33039.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -I"/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/LIBCXX_PREFIX-NOTFOUND/c++/v1"  -Wall -Wextra -pedantic -std=c++14  -DMETA_HAS_EXPERIMENTAL_STRING_VIEW  /usr/lib/libdl.dylib  -std=c++14 /usr/lib/libdl.dylib -stdlib=libc++ -stdlib=libc++ /usr/lib/libc++abi.dylib -L/usr/lib   -o CMakeFiles/cmTC_33039.dir/src.cxx.o -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/src.cxx"
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+clang: warning: /usr/lib/libc++abi.dylib: 'linker' input unused
+clang: warning: argument unused during compilation: '-L/usr/lib'
+Linking CXX executable cmTC_33039
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33039.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -Wall -Wextra -pedantic -std=c++14  -DMETA_HAS_EXPERIMENTAL_STRING_VIEW  /usr/lib/libdl.dylib  -std=c++14 /usr/lib/libdl.dylib -stdlib=libc++ -stdlib=libc++ /usr/lib/libc++abi.dylib -L/usr/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_33039.dir/src.cxx.o  -o cmTC_33039  
+
+Source file was:
+
+#include <experimental/string_view>
+int main() {
+    const std::experimental::string_view sv = "hello world";
+    // test that string_view has to_string() const method
+    // Xcode 6.4 appears to have shipped a string_view without it
+    auto str = sv.to_string();
+    return 0;
+}
+Performing C++ SOURCE FILE Test META_HAS_POSIX_MEMALIGN succeeded with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_127c3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_127c3.dir/build.make CMakeFiles/cmTC_127c3.dir/build
+Building CXX object CMakeFiles/cmTC_127c3.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -I"/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/LIBCXX_PREFIX-NOTFOUND/c++/v1"  -Wall -Wextra -pedantic -std=c++14  -DMETA_HAS_POSIX_MEMALIGN  /usr/lib/libdl.dylib  -std=c++14 /usr/lib/libdl.dylib -stdlib=libc++ -stdlib=libc++ /usr/lib/libc++abi.dylib -L/usr/lib   -o CMakeFiles/cmTC_127c3.dir/src.cxx.o -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/src.cxx"
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+clang: warning: /usr/lib/libc++abi.dylib: 'linker' input unused
+clang: warning: argument unused during compilation: '-L/usr/lib'
+Linking CXX executable cmTC_127c3
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_127c3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -Wall -Wextra -pedantic -std=c++14  -DMETA_HAS_POSIX_MEMALIGN  /usr/lib/libdl.dylib  -std=c++14 /usr/lib/libdl.dylib -stdlib=libc++ -stdlib=libc++ /usr/lib/libc++abi.dylib -L/usr/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_127c3.dir/src.cxx.o  -o cmTC_127c3  
+
+Source file was:
+
+  #include <cstdlib>
+
+  int main()
+  {
+      void* ptr;
+      ::posix_memalign(&ptr, 64, 128);
+      return 0;
+  }
+Performing C++ SOURCE FILE Test META_HAS_BUILTIN_EXPECT succeeded with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d38cb/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d38cb.dir/build.make CMakeFiles/cmTC_d38cb.dir/build
+Building CXX object CMakeFiles/cmTC_d38cb.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -I"/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/LIBCXX_PREFIX-NOTFOUND/c++/v1"  -Wall -Wextra -pedantic -std=c++14  -DMETA_HAS_BUILTIN_EXPECT  /usr/lib/libdl.dylib  -std=c++14 /usr/lib/libdl.dylib -stdlib=libc++ -stdlib=libc++ /usr/lib/libc++abi.dylib -L/usr/lib   -o CMakeFiles/cmTC_d38cb.dir/src.cxx.o -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/src.cxx"
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+clang: warning: /usr/lib/libc++abi.dylib: 'linker' input unused
+clang: warning: argument unused during compilation: '-L/usr/lib'
+Linking CXX executable cmTC_d38cb
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d38cb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -Wall -Wextra -pedantic -std=c++14  -DMETA_HAS_BUILTIN_EXPECT  /usr/lib/libdl.dylib  -std=c++14 /usr/lib/libdl.dylib -stdlib=libc++ -stdlib=libc++ /usr/lib/libc++abi.dylib -L/usr/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d38cb.dir/src.cxx.o  -o cmTC_d38cb  
+
+Source file was:
+
+int main()
+{
+    long x = 1;
+    if (__builtin_expect(x == 1, 0))
+        return 1;
+    return 0;
+}
+Performing C++ SOURCE FILE Test CPPTOML_HAS_STD_PUT_TIME succeeded with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d938/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5d938.dir/build.make CMakeFiles/cmTC_5d938.dir/build
+Building CXX object CMakeFiles/cmTC_5d938.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -I"/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/LIBCXX_PREFIX-NOTFOUND/c++/v1"  -Wall -Wextra -pedantic -std=c++14  -Wall -pedantic -stdlib=libc++ -DCPPTOML_HAS_STD_PUT_TIME  /usr/lib/libdl.dylib  /usr/lib/libdl.dylib -stdlib=libc++ /usr/lib/libc++abi.dylib -L/usr/lib   -o CMakeFiles/cmTC_5d938.dir/src.cxx.o -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/src.cxx"
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+clang: warning: /usr/lib/libc++abi.dylib: 'linker' input unused
+clang: warning: argument unused during compilation: '-L/usr/lib'
+Linking CXX executable cmTC_5d938
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d938.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -Wall -Wextra -pedantic -std=c++14  -Wall -pedantic -stdlib=libc++ -DCPPTOML_HAS_STD_PUT_TIME  /usr/lib/libdl.dylib  /usr/lib/libdl.dylib -stdlib=libc++ /usr/lib/libc++abi.dylib -L/usr/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5d938.dir/src.cxx.o  -o cmTC_5d938  
+
+Source file was:
+
+#include <iomanip>
+int main() {
+    std::tm t;
+    std::put_time(&t, "%Y");
+    return 0;
+}
+Performing C++ SOURCE FILE Test CPPTOML_HAS_STD_REGEX succeeded with the following output:
+Change Dir: /Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03d33/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_03d33.dir/build.make CMakeFiles/cmTC_03d33.dir/build
+Building CXX object CMakeFiles/cmTC_03d33.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -I"/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/LIBCXX_PREFIX-NOTFOUND/c++/v1"  -Wall -Wextra -pedantic -std=c++14  -Wall -pedantic -stdlib=libc++ -DCPPTOML_HAS_STD_REGEX  /usr/lib/libdl.dylib  /usr/lib/libdl.dylib -stdlib=libc++ /usr/lib/libc++abi.dylib -L/usr/lib   -o CMakeFiles/cmTC_03d33.dir/src.cxx.o -c "/Volumes/High Speed Storage/Development/searchAPI/cpp/build/CMakeFiles/CMakeTmp/src.cxx"
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+clang: warning: /usr/lib/libdl.dylib: 'linker' input unused
+clang: warning: /usr/lib/libc++abi.dylib: 'linker' input unused
+clang: warning: argument unused during compilation: '-L/usr/lib'
+Linking CXX executable cmTC_03d33
+/usr/local/Cellar/cmake/3.5.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03d33.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -Wall -Wextra -pedantic -std=c++14  -Wall -pedantic -stdlib=libc++ -DCPPTOML_HAS_STD_REGEX  /usr/lib/libdl.dylib  /usr/lib/libdl.dylib -stdlib=libc++ /usr/lib/libc++abi.dylib -L/usr/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_03d33.dir/src.cxx.o  -o cmTC_03d33  
+
+Return value: 1
+Source file was:
+
+#include <cstring>
+#include <ctime>
+#include <regex>
+int main() {
+    std::string to_match = "2014-02-05T14:30:05Z";
+    std::regex pattern{"(\\d{4})-(\\d{2})-(\\d{2})T(\\d{2}):(\\d{2}):(\\d{2})Z"};
+    std::match_results<std::string::const_iterator> results;
+    std::regex_match(to_match, results, pattern);
+
+    std::tm date;
+    std::memset(&date, '\0', sizeof(date));
+    date.tm_year = stoi(results[1]) - 1900;
+    date.tm_mon = stoi(results[2]) - 1;
+    date.tm_mday = stoi(results[3]);
+    date.tm_hour = stoi(results[4]);
+    date.tm_min = stoi(results[5]);
+    date.tm_sec = stoi(results[6]);
+    return 0;
+}

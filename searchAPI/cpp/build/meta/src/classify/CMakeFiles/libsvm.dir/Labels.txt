@@ -1,0 +1,13 @@
+# Target labels
+ libsvm
+# Source files and their labels
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/CMakeFiles/libsvm
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/CMakeFiles/libsvm.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/CMakeFiles/libsvm-complete.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/libsvm-prefix/src/libsvm-stamp/libsvm-install.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/libsvm-prefix/src/libsvm-stamp/libsvm-mkdir.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/libsvm-prefix/src/libsvm-stamp/libsvm-download.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/libsvm-prefix/src/libsvm-stamp/libsvm-update.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/libsvm-prefix/src/libsvm-stamp/libsvm-patch.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/libsvm-prefix/src/libsvm-stamp/libsvm-configure.rule
+/Volumes/High Speed Storage/Development/searchAPI/cpp/build/meta/src/classify/libsvm-prefix/src/libsvm-stamp/libsvm-build.rule

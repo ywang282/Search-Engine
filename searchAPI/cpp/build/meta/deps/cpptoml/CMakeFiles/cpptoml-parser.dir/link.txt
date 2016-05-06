@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++    -Wall -Wextra -pedantic -std=c++14  -Wall -pedantic -stdlib=libc++ -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cpptoml-parser.dir/parse_stdin.cpp.o  -o ../../../cpptoml-parser  /usr/lib/libc++abi.dylib -L/usr/lib 
